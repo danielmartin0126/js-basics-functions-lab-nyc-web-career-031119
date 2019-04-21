@@ -11,4 +11,7 @@ function distanceFromHqInBlocks(st) {
   return answer
 }
 
-function 
+function distanceFromHqInFeet(st) {
+  answer = (distanceFromHqInBlocks(st) * 264)
+  return answer
+}
