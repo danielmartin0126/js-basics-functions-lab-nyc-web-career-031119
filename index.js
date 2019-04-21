@@ -15,3 +15,13 @@ function distanceFromHqInFeet(st) {
   answer = (distanceFromHqInBlocks(st) * 264)
   return answer
 }
+
+function distanceTravelledInFeet(start, end) {
+  if (start > end) {
+    answer = (start - end) * 264
+  }
+  else {
+    answer = (end - start) * 264
+  }
+  return answer
+}
