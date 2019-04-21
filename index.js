@@ -27,7 +27,7 @@ function distanceTravelledInFeet(start, end) {
 }
 
 function calculatesFarePrice(start,end) {
-  dist = distanceTravelledInFeet(start,end)
+  dist = distanceTravelledInFeet(start, end)
   let response
   
   switch (dist){
