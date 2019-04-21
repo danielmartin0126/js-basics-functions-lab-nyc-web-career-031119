@@ -2,5 +2,11 @@
 
 function distanceFromHqInBlocks(st) {
   hq = 42
-  distance = 
+  if (st >hq) {
+    answer = st - hq
+  }
+  else {
+    answer = hq - st
+  }
+  return answer
 }
