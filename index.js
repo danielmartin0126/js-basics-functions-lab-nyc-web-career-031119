@@ -37,6 +37,9 @@ function calculatesFarePrice(start,end) {
       response = dist * 0.02
       break;
     case dist < 2500
+      response = 25 
+      break;
+    case dist > 2500
     
   }
 }
