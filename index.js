@@ -40,7 +40,9 @@ function calculatesFarePrice(start,end) {
       response = 25 
       break;
     case dist > 2500
-    
+      response = 'cannot travel that far'
+      break;
   }
+  return response
 }
 
