@@ -31,7 +31,12 @@ function calculatesFarePrice(start,end) {
   
   switch dist{
     case dist < 400:
-      response = 
+      response = 0 
+      break;
+    case dist < 2000:
+      response = dist * 0.02
+      break;
+    case dist < 2500
     
   }
 }
