@@ -30,6 +30,7 @@ function calculatesFarePrice(start,end) {
   dist = distanceTravelledInFeet(start,end)
   
   switch dist{
+    case 
     
   }
 }
