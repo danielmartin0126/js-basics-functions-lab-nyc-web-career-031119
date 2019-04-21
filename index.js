@@ -26,3 +26,11 @@ function distanceTravelledInFeet(start, end) {
   return answer
 }
 
+function calculatesFarePrice(start,end) {
+  dist = distanceTravelledInFeet(start,end)
+  
+  switch dist{
+    
+  }
+}
+
