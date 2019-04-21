@@ -26,26 +26,6 @@ function distanceTravelledInFeet(start, end) {
   return answer
 }
 
-function calculatesFarePrice(start,end) {
-  distance = distanceTravelledInFeet(start, end)
-  let response
-  
-  switch (distance){
-    case distance < 400:
-      response = 0 
-      break;
-    case distance < 2000:
-      response = dist * 0.02
-      break;
-    case distance < 2500:
-      response = 25 
-      break;
-    case distance > 2500:
-      response = 'cannot travel that far'
-      break;
-  }
-  return response
-}
 
 function calculatesFarePrice(start,end) {
   distance = distanceTravelledInFeet(start, end)
