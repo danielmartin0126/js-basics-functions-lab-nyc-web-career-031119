@@ -52,12 +52,12 @@ function calculatesFarePrice(start,end) {
   let response
   
   if (distance < 400) {
-    
+    response = 0 
+    return response
   }
-      response = 0 
-      break;
-    case distance < 2000:
-      response = dist * 0.02
+  else if (distance < 2000)
+      response = distance * 0.02
+      r
       break;
     case distance < 2500:
       response = 25 
