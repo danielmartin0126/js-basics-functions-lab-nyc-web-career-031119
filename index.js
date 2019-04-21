@@ -10,3 +10,5 @@ function distanceFromHqInBlocks(st) {
   }
   return answer
 }
+
+function 
